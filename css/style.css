@@ -8,8 +8,13 @@ h1{
     margin-top: 0px;
 }
 
-a:link, a:active, a:hover, a:visited{
+a:link, a:active, a:visited{
     color:#987FFF;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration:underline;
 }
 
 .mainheader{
@@ -40,6 +45,10 @@ footer{
     align-content: flex-start;
 }
 
+.anchor{
+    color:black;
+}
+
 .inputItem{
     margin: 2em;
     flex-grow: 1;
@@ -53,7 +62,7 @@ footer{
     margin: 5px;
 }
 
-.notsupported{
+.ns{
     background-color: #A4A4A4;
 }
 
