@@ -121,7 +121,7 @@ footer{
     animation-duration: 360s;
     position: absolute;
     top:-2em;
-    right: -2em;
+    right: 0em;
 }
 
 @keyframes headerbg{
