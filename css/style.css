@@ -9,7 +9,7 @@ h1{
 }
 
 .mainheader{
-    background-color: #987FFF;
+    background-color: #3D3D3D;
     color:#FFFFFF;
     padding: 2em;
 }
@@ -34,4 +34,56 @@ footer{
     flex-grow: 1;
     flex-basis: 200px;
     max-width: 250px;
+}
+
+.browsericon{
+    width: 24px;
+    height: 24px;
+    margin: 5px;
+}
+
+.notsupported{
+    background-color: #A4A4A4;
+}
+
+.o{
+    background-color: #FF0000;
+}
+
+.e{
+    background-color: #0078D4;
+}
+
+.c{
+    background-color: #FFCE43;
+}
+
+.ff{
+    background-color: #FF7D00;
+}
+
+.s{
+    background-color: #05C2E6;
+}
+
+.sb{
+    background-color: #987FFF;
+}
+
+.browserbadge{
+    border-radius: 20px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content:center;
+}
+
+.supportbar{
+    margin: 10px 1px 1px 1px;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    width: 100%;
 }
