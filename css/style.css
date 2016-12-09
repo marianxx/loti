@@ -41,9 +41,9 @@ footer{
 #popup{
     position: fixed;
     top:5em;
-    width: 75%;
-    height: 75%;
-    left:12.5%;
+    width: 60%;
+    height: 70%;
+    left:17.5%;
     padding:1em;
     background-color: rgba(255, 255, 255, .9);
     border: 1px silver;
@@ -168,10 +168,8 @@ footer{
 @keyframes maximize{
     from{
         transform: rotate3d(1, 0, 0, 90deg);
-        }
+    }
     to{
         transform: rotate3d(1, 0, 0, 0deg);
-        
-        }
-    
+    }
 }

@@ -4,9 +4,6 @@ function init(){
     for(i = 0; i < bs.length; i++){
         bs[i].addEventListener('click', popupMax);
     }
-    //minimizes intial popup
-    document.getElementById('popup').style.transform.scale(0,0);
-
 }
 
 function popupMin(){
