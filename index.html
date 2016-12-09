@@ -8,8 +8,9 @@
         <link rel="stylesheet" href="css/style.css">
         <link href="css/style.css" rel="stylesheet">
         <meta name="theme-color" content="#3D3D3D">
+        <script src="js/loti.js"></script>
     </head>
-    <body>
+    <body onload="init()">
         <main>
             <header class="mainheader">
                 <img src="i/lotibg.png" class="headerbg">
@@ -292,6 +293,9 @@
             Developed with &hearts; by the <a href="https://twitter.com/samsunginternet">Samsung Internet Dev Rel team</a> in Staines, UK. &copy; Copyright 2016 Samsung Electronics Co., Ltd.
             <img src="i/samsungInternetLogo.svg" alt="Samsung Internet" class="footerLogo">
         </footer>
-    
+        <div id="popup" onload="">
+            <img src="i/close.png" alt="close" class="closeBtn" onclick="popupMin()"/>
+            This is a pop up
+        </div>
     </body>
 </html>

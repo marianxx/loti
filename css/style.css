@@ -38,6 +38,24 @@ footer{
     min-height: .5em;
 }
 
+#popup{
+    position: fixed;
+    top:5em;
+    width: 75%;
+    height: 75%;
+    left:12.5%;
+    padding:1em;
+    background-color: rgba(255, 255, 255, .9);
+    border: 1px silver;
+    padding: 1.5em;
+    box-shadow: 0px 5px 5px 1px silver;
+    animation-name: none;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    transform: rotate3d(1, 0, 0, 90deg);
+    transform-origin: top center;
+}
+
 .container{
     display: inline-flex;
     flex-direction: row;
@@ -106,8 +124,14 @@ footer{
     display: inline-flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content:space-between;
+    justify-content:space-around;
     width: 100%;
+}
+
+.closeBtn{
+    position: absolute;
+    top:1em;
+    right: 1em;
 }
 
 .footerLogo{
@@ -119,6 +143,7 @@ footer{
 .headerbg{
     animation-name: headerbg;
     animation-duration: 360s;
+    animation-iteration-count: infinite;
     position: absolute;
     top:-2em;
     right: 0em;
@@ -128,4 +153,25 @@ footer{
 @keyframes headerbg{
     from{transform: rotate(0turn);}
     to{transform: rotate(-1turn);}
+}
+
+@keyframes minimize{
+    from{
+        transform: rotate3d(1, 0, 0, 0deg);
+        }
+    to{
+        transform: rotate3d(1, 0, 0, 90deg);
+        }
+    
+}
+
+@keyframes maximize{
+    from{
+        transform: rotate3d(1, 0, 0, 90deg);
+        }
+    to{
+        transform: rotate3d(1, 0, 0, 0deg);
+        
+        }
+    
 }
