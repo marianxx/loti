@@ -1,0 +1,22 @@
+{
+  "lang": "en",
+  "dir": "ltr",
+  "name": "input",
+  "description": "Lord of the Input",
+  "short_name": "loti",
+  "icons": [ {
+    "src": "i/icons/lotiicon192.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  },
+  {
+    "src": "i/icons/lotiicon512.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }],
+  "start_url": "index.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#3D3D3D",
+  "background_color": "#FFFFFF"
+}
