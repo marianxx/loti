@@ -213,9 +213,16 @@ footer{
         clear:both;
     }
 
+    #screenshot{
+        position: absolute;
+        max-width: 60%;
+        top:1em;
+        right: 1em;
+    }
+
     .closeBtn{
         position: absolute;
-        top:1em;
+        top: 1em;
         right: 1em;
         cursor: pointer;
     }
