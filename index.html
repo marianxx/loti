@@ -80,12 +80,12 @@
                     <p>Don't use this one. Seriously. Use <a href="#date">this one</a>.</p>
                     <input type="datetime">
                     <div class=supportbar>
-                        <div class="ns browserbadge"><img src="i/sbrowser96.png" alt="Samsung Internet" class="browsericon" data-browser="sb" data-inputype="dttm"></div>
-                        <div class="ff browserbadge"><img src="i/firefox96.png" alt="Firefox" class="browsericon" data-browser="ff" data-inputype="dttm"></div>
-                        <div class="ns browserbadge"><img src="i/edge96.png" alt="Edge" class="browsericon" data-browser="e" data-inputype="dttm"></div>
-                        <div class="ns browserbadge"><img src="i/chrome96.png" alt="Chrome" class="browsericon" data-browser="c" data-inputype="dttm"></div>
-                        <div class="ns browserbadge"><img src="i/opera96.png" alt="Opera" class="browsericon" data-browser="o" data-inputype="dttm"></div>
-                        <div class="ns browserbadge"><img src="i/safari96.png" alt="Safari" class="browsericon" data-browser="s" data-inputype="dttm"></div>
+                        <div class="ns browserbadge"><img src="i/sbrowser96.png" alt="Samsung Internet" class="browsericon" data-browser="sb" data-inputype="dtm"></div>
+                        <div class="ff browserbadge"><img src="i/firefox96.png" alt="Firefox" class="browsericon" data-browser="ff" data-inputype="dtm"></div>
+                        <div class="ns browserbadge"><img src="i/edge96.png" alt="Edge" class="browsericon" data-browser="e" data-inputype="dtm"></div>
+                        <div class="ns browserbadge"><img src="i/chrome96.png" alt="Chrome" class="browsericon" data-browser="c" data-inputype="dtm"></div>
+                        <div class="ns browserbadge"><img src="i/opera96.png" alt="Opera" class="browsericon" data-browser="o" data-inputype="dtm"></div>
+                        <div class="ns browserbadge"><img src="i/safari96.png" alt="Safari" class="browsericon" data-browser="s" data-inputype="dtm"></div>
                     </div>
                 </article>
                 <article class="inputItem">
@@ -296,14 +296,14 @@
             Developed with &hearts; by the <a href="https://twitter.com/samsunginternet">Samsung Internet Dev Rel team</a> in Staines, UK. &copy; Copyright 2016 Samsung Electronics Co., Ltd.
             <img src="i/samsungInternetLogo.svg" alt="Samsung Internet" class="footerLogo">
         </footer>
-        <div id="popup" onload="">
-            <img src="i/close.png" alt="close" class="closeBtn" onclick="popupMin()"/>
-            <div>
+        <div id="popup">
+            <div id="popupInfo">
                 <h2 id="browserTitle">Samsung Internet</h2>
                 <!--<h3 id="browserSupport">Supported</h3>-->
                 <p>This is how it looks in the browser:</p>
-                <img id="screenshot" src="" alt="">
             </div>
+            <img id="screenshot" src="" alt="">
+            <img src="i/close.png" alt="close" class="closeBtn" onclick="popupMin()"/>
         </div>
     </body>
 </html>

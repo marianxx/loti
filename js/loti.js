@@ -36,8 +36,11 @@ function popupMax(){
             title.innerText = 'Apple Safari';
             break;
     }
-    
+        
     var ss = document.getElementById('screenshot');
+    ss.src = "i/"+b.dataset.browser+"/"+b.dataset.inputype+".png";
+
+    //maximizes the popup
     var p = document.getElementById('popup');
     p.style.animationName = 'maximize';
 }
