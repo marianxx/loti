@@ -9,6 +9,8 @@ function init(){
 function popupMin(){
     var p = document.getElementById('popup');
     p.style.animationName = 'minimize';
+    var ss = document.getElementById('screenshot');
+    ss.src = "i/loading.png";
 }
 
 function popupMax(){
